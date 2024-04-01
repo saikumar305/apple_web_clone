@@ -1,20 +1,24 @@
-import Hero from "./components/Hero"
-import Highlighs from "./components/Highlighs"
-import Navbar from "./components/Navbar"
-
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Highlighs from "./components/Highlighs";
+import HowItWorks from "./components/HowItWorks";
+import Model from "./components/Model";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <> <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <Navbar/>
-  <Hero/>
-  <Highlighs/>
+    <>
+      <Navbar />
+      <Hero />
+      <Highlighs />
+      <Model />
+      <Features />
+      <HowItWorks />
+
+      <Footer />
     </>
-   
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
